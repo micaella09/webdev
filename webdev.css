@@ -1,0 +1,38 @@
+img {
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+img:active {
+    margin-right: 5px;
+    margin-left: 20px;
+    border: 6px solid rgb(0, 255, 234);
+    border-radius: 30px;
+}
+.container {
+    display: flex;
+    margin: 3%;
+    gap: .5em;
+    padding-bottom: 35%;
+    object-fit: cover;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    font-family: cooper black;
+    margin-top: 4%;
+}
+h3 {
+    position: absolute;
+    margin-top: 18%;
+    margin-bottom: 20%;
+    color: rgb(0, 0, 0);
+}
+body {
+    background-image: url('https://wallpaperaccess.com/full/3532435.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
